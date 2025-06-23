@@ -1,7 +1,5 @@
 import math
 
-# C:\Users\mynig\Desktop\macka_vp\Num metod\important.txt
-
 
 def get_data_from_user():  #citanje od tastatura
     n = int(input("Внеси број на податоци: "))
@@ -20,7 +18,7 @@ def get_data_from_file(file_path):
     # citanje od txt dokument
     x, y = [], []
     try:
-        with open(file_path, 'r') as file: #otvaranje na txt dokument za da go citame
+        with open(file_path, 'r') as file: #otvaranje na txt dokument za da go citame stavi go file path
             for line in file:
                 xi, yi = map(float, line.split()) #deleme ja linijata na dve vrednosti i toa go konvertirame vo float
                 x.append(xi)
