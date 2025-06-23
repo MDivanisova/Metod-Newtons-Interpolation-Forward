@@ -1,0 +1,1 @@
+# Metod-Newtons-Interpolation-Forward
